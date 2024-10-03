@@ -1,11 +1,12 @@
 .For-Header {
-    width:  375px;
-    height:  92 ;    
+    width: 375px;
+    height: 92;
 }
+
 .content1 {
-    position:  absolute;
-    top:  200px;
-    width:  327px;
+    position: absolute;
+    top: 200px;
+    width: 327px;
     height: 150px;
     font-family: 'Poppins';
     font-style: normal;
@@ -19,11 +20,12 @@
     order: 0;
     flex-grow: 0;
 }
+
 .content2 {
     position: absolute;
-    top:  400px;
+    top: 400px;
     width: 327px;
-    height:  146px;
+    height: 146px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -34,83 +36,50 @@
     order: 1;
     flex-grow: 0;
 }
-.content3{
+
+.content3 {
     position: absolute;
-    top:530px;
-    /* Social Media */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 16px;
-
-width: 117px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-
-
-/* Supporting Text */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 8px;
-
-width: 117px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* LET’S CONNECT */
-
-width: 200px;
-height: 24px;
-
-/* Body / 2 - Bolder */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-/* Primary/B300 */
-color: #7F8CFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    top: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 117px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 117px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 200px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-.icons{
+
+.icons {
     position: absolute;
-    top:600px;
-/* social media icons */
-
-width: 170.17px;
-height: 20px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 3;
-flex-grow: 0;
-
-
-
+    top: 600px;
+    width: 170.17px;
+    height: 20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
