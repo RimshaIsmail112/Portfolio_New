@@ -1,3 +1,128 @@
-h1 {
-  background-color: blue;
+.For-images {
+   
+}
+.For-Header {
+    width:  375px;
+    height:  92 ;
+    
+}
+.content1 {
+    position: absolute;
+    top:200px;
+width: 327px;
+height: 150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+display: flex;
+align-items: center;
+
+
+color: #172B4D;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.content2{
+    position: absolute;
+    top:400px;
+width: 327px;
+height: 146px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.content3{
+    position: absolute;
+    top:530px;
+    /* Social Media */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 117px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Supporting Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 117px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* LET’S CONNECT */
+
+width: 200px;
+height: 24px;
+
+/* Body / 2 - Bolder */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Primary/B300 */
+color: #7F8CFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.icons{
+    position: absolute;
+    top:600px;
+/* social media icons */
+
+width: 170.17px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+
 }
